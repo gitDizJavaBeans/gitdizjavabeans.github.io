@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+  
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption{
+  text-align: center;
+}
+</style>
+
+
+<main id="main">
+  <h1 id="title"> Charlie The Dog </h1>
+  <figure id="img-div">
+   <img 
+        id="image"     src="https://cdn.discordapp.com/attachments/755218309284102166/834292007491862558/PXL_20210421_045816294.jpg" 
+        alt="Charlie Taking a Nap"/> 
+    <figcaption id="img-caption">
+      Charlie Taking a Nap </figcaption>
+  </figure>
+  <section id="tribute-info">
+  <h2 id="Charlie's breed"> Charlie is a rottweiler, doberman, american bulldog mix! </h2>
+    <h3 id="Charlie's likes">
+      <strong>Charlie likes:</strong>
+      <ul>
+      <li>
+        Playing tug
+      </li>
+      <li>
+        Destroying toys
+      </li>
+      <li>
+        Eating meat and vegetables
+      </li>
+      </ul>
+    </h3>
+      <h4>
+        Learn more about 
+        <a id="tribute-link"
+           href="https://en.wikipedia.org/wiki/Dog"
+           target="blank">
+          man's best friend
+        </a>
+    </h4>
+  </section>
+ 
+
+</main>
+</html>
